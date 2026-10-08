@@ -1,0 +1,36 @@
+If you already have your SpendWise CSS, keep your existing CSS. If you need a simple working design, use this:
+
+:::writing{variant="document" id="92643" title="style.css"}
+
+{
+margin: 0; padding: 0; box-sizing: border-box; }
+
+body { font-family: Arial, sans-serif; background-color: #f4f7f6; color: #222; }
+
+header { background-color: #176b5b; color: white; text-align: center; padding: 30px 20px; }
+
+header h1 { font-size: 40px; margin-bottom: 8px; }
+
+header p { font-size: 18px; }
+
+main { max-width: 1000px; margin: 50px auto; padding: 20px; }
+
+.welcome { background-color: white; text-align: center; padding: 45px 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); }
+
+.welcome h2 { color: #176b5b; margin-bottom: 15px; }
+
+.welcome p { margin-bottom: 25px; color: #555; }
+
+button { background-color: #176b5b; color: white; border: none; padding: 13px 25px; border-radius: 7px; cursor: pointer; font-size: 16px; }
+
+button:hover { background-color: #125548; }
+
+.features { display: flex; gap: 20px; margin-top: 30px; }
+
+.card { flex: 1; background-color: white; padding: 30px; text-align: center; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06); }
+
+.card h3 { margin-bottom: 10px; color: #176b5b; }
+
+.card p { color: #666; }
+
+footer { text-align: center; padding: 25px; color: #666; } :::
